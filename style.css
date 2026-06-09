@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #1b1b2f, #3f3351);
+    color: white;
+    text-align: center;
+}
+
+.pantalla,
+#regalo {
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 20px;
+}
+
+.contenido {
+    max-width: 700px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+button {
+
+    margin-top: 30px;
+
+    padding: 15px 35px;
+
+    border: none;
+
+    border-radius: 50px;
+
+    background-color: #f6c90e;
+
+    font-size: 1rem;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.oculto {
+    display: none;
+}
+
+.galeria {
+    max-width: 800px;
+}
+
+.slide {
+    display: none;
+}
+
+.slide.activo {
+    display: block;
+}
+
+.slide img {
+
+    width: 100%;
+
+    max-width: 450px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.slide p {
+
+    margin-top: 25px;
+
+    font-size: 1.3rem;
+}
+
+#mensajeFinal {
+
+    max-width: 700px;
+
+    padding: 30px;
+}
